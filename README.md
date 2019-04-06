@@ -4,6 +4,8 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 ## Screenshots
 
+### Buttons and links
+
 [![Hover 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-1)
 
 
@@ -20,6 +22,9 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 
 [![Hover 6](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_6.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-6)
+
+
+###
 
 ---
 
