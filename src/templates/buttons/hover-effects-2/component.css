@@ -1,0 +1,58 @@
+.link-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 245px;
+}
+  
+.link-hover .text {
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: -1;
+    transition: 0.25s;
+    width: 100%;
+    text-align: center;
+}
+  
+.link-hover:after, .link-hover:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    transition: 0.25s;
+}
+
+.link-hover:after {
+    bottom: 0;
+}
+
+.link-hover:before {
+    top: 0;
+}
+
+.link-hover:hover .text {
+    border-color: transparent;
+}
+
+.link-hover:hover:before, .link-hover:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.link-hover-orange:after, .link-hover-orange:before {
+    background-color: #f5b041;
+}
+
+.link-hover-orange .text {
+    border-top: 2px solid #fdebd0;
+    border-bottom: 2px solid #fdebd0;
+}
