@@ -4,7 +4,7 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 ## Screenshots
 
-[![Hover 1](https://github.com/EduardoRotundaro/css-effects/blob/master/docs/images/animated_menu.png)](https://github.com/EduardoRotundaro/css-effects/tree/master/src/animated-menu)
+[![Hover 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-1)
 
 ---
 
