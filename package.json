@@ -1,0 +1,31 @@
+{
+  "name": "react-js-components",
+  "version": "0.1.0",
+  "description": "Some UI components for ReactJS, using CSS3 animations and effects.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoRotundaro/react-js-components.git"
+  },
+  "author": "Eduardo Henrique Rotundaro",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
