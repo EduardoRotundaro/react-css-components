@@ -1,0 +1,51 @@
+.link-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 180px;
+}
+  
+.link-hover .text {
+    color: #8d99ae;
+    transition: 0.5s;
+}
+  
+.link-hover:after, .link-hover:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+  
+.link-hover:before {
+    top: 0;
+}
+  
+.link-hover:after {
+    bottom: 0;
+}
+  
+.link-hover:hover:before, .link-hover:hover:after {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+  
+.link-hover-orange:after, .link-hover-orange:before {
+    background-color: #f5b041;
+}
+
+.link-hover-orange:hover .text {
+    color: #f5b041;
+}
