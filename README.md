@@ -36,11 +36,17 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Button hover layer effect ](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-14)
 
+* [Link hover snake effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-15)
+
 * [Download button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
 
 * [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
 
 * [Button close 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-2)
+
+#### Cards
+
+* [Card hover effect 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/cards/hover-effect-1)
 
 #### Extras
 
