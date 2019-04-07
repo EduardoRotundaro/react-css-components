@@ -28,6 +28,14 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Link hover fill background 4](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-10)
 
+* [Button hover shake effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-11)
+
+* [Button hover expand effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-12)
+
+* [Button hover expand icon effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-13)
+
+* [Button hover layer effect ](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-14)
+
 * [Download button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
 
 * [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
