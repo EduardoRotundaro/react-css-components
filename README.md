@@ -2,8 +2,8 @@
 
 Some UI components for ReactJS, using CSS3 animations and effects.
 
----
----
+
+
 
 ## Screenshots
 
@@ -46,8 +46,7 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 [![Mail](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/extras_email.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
 
 
----
----
+
 
 ## After clone
 
