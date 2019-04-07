@@ -2,67 +2,41 @@
 
 Some UI components for ReactJS, using CSS3 animations and effects.
 
-
-
-
-## Screenshots
-
-### Buttons and links
-
-[![Hover 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-1)
-
 ---
 
-[![Hover 2](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_2.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-2)
+## Content
+
+#### Buttons and links
+
+* [Link hover dot effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-1)
+
+* [Link hover border effect 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-2)
+
+* [Link hover border effect 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-3)
+
+* [Link hover resize border effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-4)
+
+* [Link hover dot fill effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-5)
+
+* [Link hover 3D](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-6)
+
+* [Link hover fill background 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-7)
+
+* [Link hover fill background 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-8)
+
+* [Link hover fill background 3](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-9)
+
+* [Link hover fill background 4](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-10)
+
+* [Download button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
+
+* [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
+
+#### Extras
+
+* [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
 
 ---
-
-[![Hover 3](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_3.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-3)
-
----
-
-[![Hover 4](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_4.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-4)
-
----
-
-[![Hover 5](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_5.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-5)
-
----
-
-[![Hover 6](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_6.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-6)
-
----
-
-[![Hover 7](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_7.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-7)
-
----
-
-[![Hover 8](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_8.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-8)
-
----
-
-[![Hover 9](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_9.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-9)
-
----
-
-[![Hover 10](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_hover_10.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-10)
-
----
-
-[![Download 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/download_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
-
----
-
-[![Close 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_close_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
-
----
-
-### Extras
-
-[![Mail](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/extras_email.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
-
-
-
 
 ## After clone
 
