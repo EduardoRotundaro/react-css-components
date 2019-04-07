@@ -32,6 +32,8 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
 
+* [Button close 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-2)
+
 #### Extras
 
 * [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)

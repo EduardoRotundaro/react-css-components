@@ -1,0 +1,54 @@
+.btn {
+    outline: none;
+    border: none;
+    padding: 15px 45px;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+  
+.expand {
+    color: #444444;
+    border-color: transparent;
+}
+
+.expand:before, .expand:after {
+    width: 0;
+    height: 3px;
+    content: " ";
+    background-color: #a569bd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+
+.expand:after {
+    top: 100%;
+}
+
+.expand:hover {
+    letter-spacing: 8px;
+    color: #a569bd;
+}
+  
+.expand:hover:before, .expand:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.expand:hover:after {
+    width: 100%;
+    left: 0;
+}
