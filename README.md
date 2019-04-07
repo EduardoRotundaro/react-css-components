@@ -29,6 +29,9 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 [![Download 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/download_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
 
 
+[![Close 1](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/button_close_1.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
+
+
 ### Extras
 
 [![Mail](https://github.com/EduardoRotundaro/react-js-components/blob/master/doc/screenshots/extras_email.png)](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
