@@ -58,6 +58,10 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Prev button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/prev-1)
 
+* [Next button 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/next-2)
+
+* [Prev button 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/prev-2)
+
 #### Extras
 
 * [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)

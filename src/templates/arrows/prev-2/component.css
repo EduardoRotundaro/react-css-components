@@ -1,0 +1,43 @@
+.body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+  
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #3d3d3d;
+    border-right: 1vmin solid #3d3d3d;
+    box-shadow: 0 0 0 lightgray;
+    transition: all 200ms ease;
+}
+
+.arrow.left {
+    left: 0;
+    -webkit-transform: translate3d(0, -50%, 0) rotate(-135deg);
+    transform: translate3d(0, -50%, 0) rotate(-135deg);
+}
+
+.arrow:hover {
+    border-color: #a569bd;
+    box-shadow: 0.5vmin -0.5vmin 0 #3d3d3d;
+}
+
+.arrow:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-40%, -60%) rotate(45deg);
+    transform: translate(-40%, -60%) rotate(45deg);
+    width: 200%;
+    height: 200%;
+}
