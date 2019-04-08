@@ -48,6 +48,12 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Card hover effect 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/cards/hover-effect-1)
 
+#### Arrows
+
+* [Flip vertical 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/arrow-switch-vertical-1)
+
+* [Flip horizontal 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/arrow-switch-horizontal-1)
+
 #### Extras
 
 * [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
