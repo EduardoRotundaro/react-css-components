@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+body {
+    font-family: Righteous;
+}
+
+.arrow-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    color: #3d3d3d;
+    cursor: pointer;
+    display: block;
+    align-items: flex-start;
+    text-transform: uppercase;
+    position: relative;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.arrow span {
+    display: block;
+    width: 6em;
+    opacity: 0;
+    transition: opacity 0.3s 0s;
+    padding: 0 0.5em;
+}
+
+.arrow:hover span {
+    opacity: 1;
+    transition: opacity 0.3s 0.1s;
+}
+
+.arrow:before {
+    content: '';
+    display: block;
+    border: solid #3d3d3d;
+    border-width: 2px 2px 0 0;
+    position: absolute;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.arrow.arrow--left:before {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    right: 0;
+    transition: right 0.3s 0.2s;
+}
+
+.arrow.arrow--left:hover:before {
+    right: 100%;
+    transition: right 0.3s;
+}
+
+.arrow:hover {
+    -webkit-transform: none;
+    transform: none;
+}

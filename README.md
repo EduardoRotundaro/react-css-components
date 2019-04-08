@@ -54,6 +54,10 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Flip horizontal 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/arrow-switch-horizontal-1)
 
+* [Next button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/next-1)
+
+* [Prev button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/prev-1)
+
 #### Extras
 
 * [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
