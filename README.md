@@ -44,6 +44,10 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Button close 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-2)
 
+#### Badges
+
+* [Hexagon](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/badges/hexagon)
+
 #### Cards
 
 * [Card hover effect 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/cards/hover-effect-1)
