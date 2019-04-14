@@ -1,6 +1,6 @@
-# React.JS Components
+# React.js Components
 
-Some UI components for ReactJS, using CSS3 animations and effects.
+Some UI components for React, using CSS3 animations and effects.
 
 ---
 
@@ -38,11 +38,25 @@ Some UI components for ReactJS, using CSS3 animations and effects.
 
 * [Link hover snake effect](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-15)
 
+* [Link Box](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-16)
+
+* [Colorful shadow](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-17)
+
+* [Button w/ span](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hover-effects-18)
+
 * [Download button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
 
 * [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
 
 * [Button close 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-2)
+
+* [Button close 3](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-3)
+
+* [Button close 4](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-4)
+
+* [Button submit 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/submit-1)
+
+* [Hamburger 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/hamburger-1)
 
 #### Badges
 

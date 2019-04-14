@@ -1,7 +1,7 @@
 {
   "name": "react-js-components",
   "version": "0.1.0",
-  "description": "Some UI components for ReactJS, using CSS3 animations and effects.",
+  "description": "Some UI components for React, using CSS3 animations and effects.",
   "private": true,
   "repository": {
     "type": "git",
