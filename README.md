@@ -72,6 +72,12 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [Card hover effect 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/cards/hover-effect-1)
 
+#### Check-box
+
+* [Flip](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/check-box/flip)
+
+* [Switch 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/check-box/switch-1)
+
 #### Arrows
 
 * [Flip vertical 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/arrow-switch-vertical-1)
