@@ -46,6 +46,12 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [Download button 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-1)
 
+* [Download button 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-2)
+
+* [Download button 3](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-3)
+
+* [Download button 4](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/download-4)
+
 * [Button close 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-1)
 
 * [Button close 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/buttons/close-2)
