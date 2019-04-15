@@ -1,0 +1,98 @@
+.animation {
+    width: 150px;
+    height: 150px;
+    background: #ddd;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: inline-block;
+}
+  
+.animation.download {
+    background: #00CCFF;
+}
+  
+.animation.download .cloud {
+    box-shadow: 0px 0px #00a3cc, 1px 1px #00a3cc, 2px 2px #00a3cc, 3px 3px #00a3cc, 4px 4px #00a3cc, 5px 5px #00a3cc, 6px 6px #00a3cc, 7px 7px #00a3cc, 8px 8px #00a3cc, 9px 9px #00a3cc, 10px 10px #00a3cc, 11px 11px #00a3cc, 12px 12px #00a3cc, 13px 13px #00a3cc, 14px 14px #00a3cc, 15px 15px #00a3cc, 16px 16px #00a3cc, 17px 17px #00a3cc, 18px 18px #00a3cc, 19px 19px #00a3cc, 20px 20px #00a3cc, 21px 21px #00a3cc, 22px 22px #00a3cc, 23px 23px #00a3cc, 24px 24px #00a3cc, 25px 25px #00a3cc, 26px 26px #00a3cc, 27px 27px #00a3cc, 28px 28px #00a3cc, 29px 29px #00a3cc, 30px 30px #00a3cc, 31px 31px #00a3cc, 32px 32px #00a3cc, 33px 33px #00a3cc, 34px 34px #00a3cc, 35px 35px #00a3cc, 36px 36px #00a3cc, 37px 37px #00a3cc, 38px 38px #00a3cc, 39px 39px #00a3cc, 40px 40px #00a3cc, 41px 41px #00a3cc, 42px 42px #00a3cc, 43px 43px #00a3cc, 44px 44px #00a3cc, 45px 45px #00a3cc, 46px 46px #00a3cc, 47px 47px #00a3cc, 48px 48px #00a3cc, 49px 49px #00a3cc, 50px 50px #00a3cc;
+}
+  
+.animation.download .arrow {
+    -webkit-animation: download 1s linear infinite;
+    animation: download 1s linear infinite;
+}
+  
+.cloud {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 60px auto 0;
+    box-shadow: 0px 0px #00a3cc, 1px 1px #00a3cc, 2px 2px #00a3cc, 3px 3px #00a3cc, 4px 4px #00a3cc, 5px 5px #00a3cc, 6px 6px #00a3cc, 7px 7px #00a3cc, 8px 8px #00a3cc, 9px 9px #00a3cc, 10px 10px #00a3cc, 11px 11px #00a3cc, 12px 12px #00a3cc, 13px 13px #00a3cc, 14px 14px #00a3cc, 15px 15px #00a3cc, 16px 16px #00a3cc, 17px 17px #00a3cc, 18px 18px #00a3cc, 19px 19px #00a3cc, 20px 20px #00a3cc, 21px 21px #00a3cc, 22px 22px #00a3cc, 23px 23px #00a3cc, 24px 24px #00a3cc, 25px 25px #00a3cc, 26px 26px #00a3cc, 27px 27px #00a3cc, 28px 28px #00a3cc, 29px 29px #00a3cc, 30px 30px #00a3cc, 31px 31px #00a3cc, 32px 32px #00a3cc, 33px 33px #00a3cc, 34px 34px #00a3cc, 35px 35px #00a3cc, 36px 36px #00a3cc, 37px 37px #00a3cc, 38px 38px #00a3cc, 39px 39px #00a3cc, 40px 40px #00a3cc, 41px 41px #00a3cc, 42px 42px #00a3cc, 43px 43px #00a3cc, 44px 44px #00a3cc, 45px 45px #00a3cc, 46px 46px #00a3cc, 47px 47px #00a3cc, 48px 48px #00a3cc, 49px 49px #00a3cc, 50px 50px #00a3cc;
+}
+  
+.cloud:after, .cloud:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    top: -20px;
+    background: #fff;
+    left: 5px;
+}
+  
+.cloud:before {
+    width: 40px;
+    height: 40px;
+    left: 50px;
+}
+  
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+    top: 10px;
+    width: 15px;
+    height: 10px;
+    background: #97CA03;
+    display: inline-block;
+}
+  
+.arrow:after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 100%;
+    border: 15px solid transparent;
+    border-top-color: #97CA03;
+}
+  
+@-webkit-keyframes download {
+    0% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+  
+@keyframes download {
+    0% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    100% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
