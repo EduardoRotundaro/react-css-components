@@ -1,0 +1,27 @@
+.wrap {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+  
+.social {
+    font-size: 2.5em;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #abc;
+}
+  
+.social i {
+    position: relative;
+    top: 20px;
+    margin: 0 10px;
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+  
+.social i:hover {
+    top: -5px;
+}
+  
+.yt {
+    color: #AA2A25;
+}

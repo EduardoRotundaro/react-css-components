@@ -84,6 +84,20 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [E-mail hover animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/mail)
 
+#### Social Media
+
+* [Social Icons 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-1)
+
+* [Social Icons 2](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-2)
+
+* [Social Icons 3](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-3)
+
+* [Social Icons 4](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-4)
+
+* [Social Icons 5](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-5)
+
+* [Social Icon 3D 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/3d-icon-1)
+
 ---
 
 ## After clone
