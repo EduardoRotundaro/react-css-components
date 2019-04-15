@@ -100,6 +100,8 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [Upload animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/upload)
 
+* [Loading-animation](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/extras/loading)
+
 #### Social Media
 
 * [Social Icons 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-1)
