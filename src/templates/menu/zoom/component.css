@@ -1,0 +1,86 @@
+.ca-main, .ca-content, .ca-sub, .ca-menu, .ca-li{
+    margin: 0;
+    padding: 0;
+}
+  
+.ca-menu{
+    color: #333333;
+    font-family: 'Questrial', sans-serif;
+    font-size: 13px;
+    padding: 0;
+    width: 500px;
+}
+  
+.ca-menu li{
+    width: 500px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    background: #ffffff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4px;
+    border-left: 10px solid #A569BD;
+    transition: all 300ms ease-in-out;
+}
+  
+.ca-menu li:last-child{
+    margin-bottom: 0px;      
+}
+  
+.ca-menu li a{
+    text-align: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #A569BD;
+    position: relative;
+}
+  
+.ca-icon{
+    font-size: 20px;
+    line-height: 90px;   
+    position: absolute;
+    width: 90px;
+    left: 20px;
+    text-align: center;
+    transition: all 300ms linear;
+}
+  
+.ca-content{
+    position: absolute;
+    left: 120px;
+    width: 370px;
+    height: 59px;
+    top: 20px;
+}
+  
+.ca-main{
+    font-size: 30px;
+    transition: all 300ms linear;    
+}
+
+.ca-sub{
+    font-size: 13px;
+    color: #555555;
+    transition: all 300ms linear;    
+}
+  
+.ca-menu li:hover{
+    border-color: #A569BD;
+    background: #A569BD;
+}
+  
+.ca-menu li:hover .ca-icon{
+    color: #ffffff;
+    font-size: 40px;
+}
+  
+.ca-menu li:hover .ca-main{
+    color: #000000;
+    font-size: 14px;
+}
+  
+.ca-menu li:hover .ca-sub{
+    color: #ffffff;
+    font-size: 30px;
+}

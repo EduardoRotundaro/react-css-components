@@ -116,6 +116,10 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [Social Icon 3D 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/3d-icon-1)
 
+#### Menus
+
+* [Zoom](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/menu/zoom)
+
 ---
 
 ## After clone
