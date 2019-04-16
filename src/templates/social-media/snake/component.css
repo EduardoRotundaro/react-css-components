@@ -1,0 +1,99 @@
+.snake{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.snake-ul{
+    position: absolute;
+    padding: 0;
+    display: flex;
+}
+  
+.snake-ul li{
+    list-style: none;
+}
+  
+.snake-ul li a{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #262626;
+    margin: 0 10px;
+    transition: .5s;
+}
+  
+.snake-ul li a span{
+    position: absolute;
+    transition: transform .5s;
+}
+  
+.snake-ul li a span:nth-child(1),
+.snake-ul li a span:nth-child(3){
+    width: 100%;
+    height: 1px;
+    background: #262626;
+}
+  
+.snake-ul li a span:nth-child(1){
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+  
+.snake-ul li a:hover span:nth-child(1){
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+  
+.snake-ul li a span:nth-child(3){
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+  
+.snake-ul li a:hover span:nth-child(3){
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+  
+.snake-ul li a span:nth-child(2),
+.snake-ul li a span:nth-child(4){
+    height: 100%;
+    width: 1px;
+    background: #262626;
+}
+  
+.snake-ul li a span:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+  
+.snake-ul li a:hover span:nth-child(2){
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform .5s;
+}
+  
+.snake-ul li a span:nth-child(4){
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+  
+.snake-ul li a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
