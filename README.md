@@ -80,6 +80,10 @@ Some UI components for React, using CSS3 animations and effects.
 
 * [Switch 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/check-box/switch-1)
 
+#### Inputs
+
+* [Hidden search](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/inputs/hidden-search-1)
+
 #### Arrows
 
 * [Flip vertical 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/arrows/arrow-switch-vertical-1)
@@ -117,6 +121,10 @@ Some UI components for React, using CSS3 animations and effects.
 * [Social Icons 5](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/icons-5)
 
 * [Social Icon 3D 1](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/3d-icon-1)
+
+* [Layered](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/layered)
+
+* [Snake](https://github.com/EduardoRotundaro/react-js-components/tree/master/src/templates/social-media/snake)
 
 #### Menus
 
