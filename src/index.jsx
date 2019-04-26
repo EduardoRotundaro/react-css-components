@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-// import Test from './templates/buttons/hover-effects-2'
+import Routes from './routes'
+
+import './assets/css/app.css'
 
 ReactDOM.render(
-    <h2>Hello</h2>, 
-    // <Test text="Link" color="orange"></Test>,
+    <Routes/>,
     document.getElementById('root')
 )
