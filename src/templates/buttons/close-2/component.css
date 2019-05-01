@@ -5,6 +5,7 @@
     position: absolute;
     transition: all 200ms ease-out;
     width: 40px;
+    margin-left: -20px;
 }
 
 .menu-icon:after, .menu-icon:before {
