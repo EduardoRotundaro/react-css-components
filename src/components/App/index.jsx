@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default props => (
-    <h2>aifba</h2>
+    <h2 className="">aifba</h2>
 )
