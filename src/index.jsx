@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Routes from './routes'
+import App from './components/App'
 
+import './assets/css/bootstrap-grid.css'
 import './assets/css/app.css'
 
-import './assets/js/fonts'
+import './assets/js/icons'
 
 ReactDOM.render(
-    <Routes/>,
+    <App/>,
     document.getElementById('root')
 )
