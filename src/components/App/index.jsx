@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Container from '../utils/Container'
+import Main from '../pages/Main'
+
 export default props => (
-    <h2 className="">aifba</h2>
+    <Container full>
+        <Main/>
+    </Container>
 )

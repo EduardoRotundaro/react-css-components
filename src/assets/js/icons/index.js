@@ -1,19 +1,33 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import {
-    faLaughSquint,
+    faThLarge,
+    faLink,
+    faEllipsisH,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
-    faAccusoft,
+    faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
-    faAngry,
+    faArrowAltCircleUp,
+    faPlayCircle,
+    faSquare,
+    faCheckSquare,
+    faPlusSquare,
+    faKeyboard,
 } from '@fortawesome/free-regular-svg-icons'
 
 library.add(
-    faLaughSquint,
-    faAccusoft,
-    faAngry
+    faThLarge,
+    faGithub,
+    faArrowAltCircleUp,
+    faPlayCircle,
+    faSquare,
+    faCheckSquare,
+    faPlusSquare,
+    faKeyboard,
+    faLink,
+    faEllipsisH,
 )
