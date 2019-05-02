@@ -1,10 +1,5 @@
 import React from 'react'
 
-import Container from '../utils/Container'
-import Main from '../pages/Main'
+import Routes from '../../routes'
 
-export default props => (
-    <Container full>
-        <Main/>
-    </Container>
-)
+export default props => <Routes/>

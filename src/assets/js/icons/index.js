@@ -4,6 +4,8 @@ import {
     faThLarge,
     faLink,
     faEllipsisH,
+    faSquare,
+    faSpinner,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -13,10 +15,10 @@ import {
 import {
     faArrowAltCircleUp,
     faPlayCircle,
-    faSquare,
     faCheckSquare,
     faPlusSquare,
     faKeyboard,
+    faDotCircle,
 } from '@fortawesome/free-regular-svg-icons'
 
 library.add(
@@ -30,4 +32,6 @@ library.add(
     faKeyboard,
     faLink,
     faEllipsisH,
+    faSpinner,
+    faDotCircle,
 )

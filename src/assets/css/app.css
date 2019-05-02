@@ -157,3 +157,13 @@ body{
     background: #17202A;
     padding: 5px;
 }
+
+.link-card{
+    text-decoration: none;
+    color: #FDFEFE;
+    border-bottom: 2px solid #28B463;
+}
+
+.link-card:hover{
+    font-weight: bold;
+}
