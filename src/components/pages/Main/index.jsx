@@ -4,7 +4,7 @@ import { camelCase } from 'lodash'
 import Row from '../../utils/Row'
 import Column from '../../utils/Column'
 import Card from '../../../templates/cards/basic'
-import Header from './Header'
+import Header from '../../partials/Header'
 import CardBody from './CardBody'
 
 import { TEMPLATES_CATEGORIES } from '../../../constants/content'

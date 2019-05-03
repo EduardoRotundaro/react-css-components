@@ -1,4 +1,4 @@
-.link-hover {
+.link-hover-one {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@
     padding: 1rem 2rem 1rem 3rem;
 }
 
-.link-hover .circle {
+.link-hover-one .circle {
     height: 1rem;
     width: 1rem;
     border-radius: 100%;
@@ -23,29 +23,30 @@
     transition: 0.25s;
 }
 
-.link-hover .text {
+.link-hover-one .text {
     position: relative;
     left: 0;
     transition: 0.5s;
 }
 
-.link-hover:hover {
-    color: white;
-}
-
-.link-hover:hover .circle {
+.link-hover-one:hover .circle {
     -webkit-transform: scale(30);
             transform: scale(30);
 }
 
-.link-hover:hover .text {
+.link-hover-one:hover .text {
     left: -0.5rem;
 }
 
-.link-hover-orange {
-    border: 2px solid #f5b041;
+.link-hover-one-primary {
+    border: 2px solid #3498DB;
+    color: #3498DB;
 }
 
-.link-hover-orange .circle {
-    background-color: #f5b041;
+.link-hover-one-primary:hover {
+    color: white;
+}
+
+.link-hover-one-primary .circle {
+    background-color: #3498DB;
 }

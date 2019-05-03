@@ -1,4 +1,4 @@
-.link-hover {
+.link-hover-two {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,9 +10,10 @@
     position: relative;
     overflow: hidden;
     width: 245px;
+    color: #17202A;
 }
   
-.link-hover .text {
+.link-hover-two .text {
     padding: 1rem 2rem;
     position: relative;
     z-index: -1;
@@ -21,7 +22,7 @@
     text-align: center;
 }
   
-.link-hover:after, .link-hover:before {
+.link-hover-two:after, .link-hover-two:before {
     content: "";
     position: absolute;
     z-index: 2;
@@ -31,28 +32,28 @@
     transition: 0.25s;
 }
 
-.link-hover:after {
+.link-hover-two:after {
     bottom: 0;
 }
 
-.link-hover:before {
+.link-hover-two:before {
     top: 0;
 }
 
-.link-hover:hover .text {
+.link-hover-two:hover .text {
     border-color: transparent;
 }
 
-.link-hover:hover:before, .link-hover:hover:after {
+.link-hover-two:hover:before, .link-hover-two:hover:after {
     left: 0;
     width: 100%;
 }
 
-.link-hover-orange:after, .link-hover-orange:before {
-    background-color: #f5b041;
+.link-hover-two-primary:after, .link-hover-two-primary:before {
+    background-color: rgb(52, 152, 219);
 }
 
-.link-hover-orange .text {
-    border-top: 2px solid #fdebd0;
-    border-bottom: 2px solid #fdebd0;
+.link-hover-two-primary .text {
+    border-top: 2px solid rgb(152, 252, 255);
+    border-bottom: 2px solid rgb(152, 252, 255);
 }

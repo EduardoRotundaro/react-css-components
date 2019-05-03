@@ -3,7 +3,7 @@ import React from 'react'
 import './component.css'
 
 export default props => (
-    <a className={ `link-hover link-hover-${ props.color }` }>
-        <span className="text">{ props.text }</span>
+    <a href={ props.href } className={ `link-hover-five link-hover-five-${ props.color }` }>
+        <span className="text">{ props.children }</span>
     </a>
 )

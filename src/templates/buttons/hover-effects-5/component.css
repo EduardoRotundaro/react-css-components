@@ -1,4 +1,4 @@
-.link-hover {
+.link-hover-five {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,11 +12,11 @@
     width: 180px;
 } 
   
-.link-hover .text {
+.link-hover-five .text {
     transition: 0.5s;
 }
 
-.link-hover:before, .link-hover:after {
+.link-hover-five:before, .link-hover-five:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -27,27 +27,27 @@
     border-radius: 100%;
 }
 
-.link-hover:hover .text {
+.link-hover-five:hover .text {
     color: white;
 }
 
-.link-hover:hover:before, .link-hover:hover:after {
+.link-hover-five:hover:before, .link-hover-five:hover:after {
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
 
-.link-hover:hover:before {
+.link-hover-five:hover:before {
     -webkit-animation: 2s noway forwards;
     animation: 2s noway forwards;
 }
 
-.link-hover:hover:after {
+.link-hover-five:hover:after {
     -webkit-animation: 0.5s wow 2s forwards;
     animation: 0.5s wow 2s forwards;
 }
 
-.link-hover-orange:before, .link-hover-orange:after {
-    background: #f5b041;
+.link-hover-five-primary:before, .link-hover-five-primary:after {
+    background: #3498DB;
 }
   
 @-webkit-keyframes wow {

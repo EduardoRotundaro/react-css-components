@@ -1,4 +1,4 @@
-.link-hover {
+.link-hover-three {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,12 +12,12 @@
     width: 180px;
 }
   
-.link-hover .text {
-    color: #8d99ae;
+.link-hover-three .text {
+    color: #17202A;
     transition: 0.5s;
 }
   
-.link-hover:after, .link-hover:before {
+.link-hover-three:after, .link-hover-three:before {
     content: "";
     position: absolute;
     z-index: 2;
@@ -29,23 +29,23 @@
     transition: 0.5s;
 }
   
-.link-hover:before {
+.link-hover-three:before {
     top: 0;
 }
   
-.link-hover:after {
+.link-hover-three:after {
     bottom: 0;
 }
   
-.link-hover:hover:before, .link-hover:hover:after {
+.link-hover-three:hover:before, .link-hover-three:hover:after {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
 }
   
-.link-hover-orange:after, .link-hover-orange:before {
-    background-color: #f5b041;
+.link-hover-three-primary:after, .link-hover-three-primary:before {
+    background-color: #3498DB;
 }
 
-.link-hover-orange:hover .text {
-    color: #f5b041;
+.link-hover-three-primary:hover .text {
+    color: #3498DB;
 }

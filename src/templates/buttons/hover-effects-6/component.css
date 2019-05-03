@@ -1,29 +1,19 @@
-.centered, .link-hover, .link-hover .qube .front::before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-  
-.link-hover{
+.link-hover-six{
     font-family: "Raleway", sans-serif;
 }
   
-.full, .link-hover .qube .front, .link-hover .qube .back, .link-hover .qube .front::before {
+.full, .link-hover-six .qube .front, .link-hover-six .qube .back, .link-hover-six .qube .front::before {
     width: 100%;
     height: 100%;
 }
   
-.link-hover .qube {
-    position: relative;
+.link-hover-six .qube {
     height: 60px;
     width: 245px;
     perspective: 1800px;
 }
 
-.link-hover .qube .front, .link-hover .qube .back {
+.link-hover-six .qube .front, .link-hover-six .qube .back {
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transform: rotateX(-90deg);
@@ -34,17 +24,17 @@
     text-align: center;
 }
 
-.link-hover .qube .front {
+.link-hover-six .qube .front {
     background-color: #d35400;
 }
 
-.link-hover .qube .front::before {
+.link-hover-six .qube .front::before {
     content: '';
     display: block;
     z-index: -1;
 }
 
-.link-hover .qube .front::after {
+.link-hover-six .qube .front::after {
     background: #FFF;
     content: '';
     height: 155px;
@@ -58,32 +48,32 @@
     z-index: 1;
 }
 
-.link-hover .qube .back {
+.link-hover-six .qube .back {
     background-color: #f5b041;
     color: #ffffff;
     transform: rotateX(0deg) translateZ(60px);
 }
 
-.link-hover .qube:hover .front {
+.link-hover-six .qube:hover .front {
     transform: rotateX(0deg) translateZ(30px);
 }
 
-.link-hover .qube:hover .back {
+.link-hover-six .qube:hover .back {
     transform: rotateX(90deg) translateZ(30px);
 }
 
-.link-hover:active .front {
+.link-hover-six:active .front {
     border-radius: 0;
     background-color: transparent;
     color: #ffffff;
 }
 
-.link-hover:active .front::before {
+.link-hover-six:active .front::before {
     background-color: #f5b041;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.link-hover:active .front::after {
+.link-hover-six:active .front::after {
     left: 120%;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
